@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" role="img" aria-labelledby="title desc">
+  <title id="title">GROUND — local-first retrieval and grounded answers</title>
+  <desc id="desc">A local document collection flows through retrieval into an answer linked to its sources.</desc>
+  <rect width="1280" height="420" rx="28" fill="#F8F5EF"/>
+  <path d="M52 58h8v92h-8z" fill="#C5A15D"/>
+  <text x="86" y="135" font-family="Inter,Arial,sans-serif" font-size="84" font-weight="750" letter-spacing="2" fill="#164E59">GROUND</text>
+  <text x="90" y="188" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="600" fill="#34454A">Local-first RAG for personal document collections</text>
+  <text x="90" y="244" font-family="Inter,Arial,sans-serif" font-size="21" fill="#526267">Retrieve relevant passages. Keep answers connected to their sources.</text>
+  <rect x="90" y="294" width="220" height="44" rx="22" fill="#E8F0F2" stroke="#164E59" stroke-width="2"/>
+  <text x="200" y="323" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="1.2" fill="#164E59">LOCAL-FIRST PROTOTYPE</text>
+  <g transform="translate(668 88)">
+    <rect x="12" y="22" width="126" height="176" rx="18" fill="#FFFFFF" stroke="#496F91" stroke-width="3"/>
+    <path d="M42 68h66M42 94h66M42 120h48M42 146h58" stroke="#8FA9BB" stroke-width="7" stroke-linecap="round"/>
+    <text x="75" y="228" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="600" fill="#34454A">Documents</text>
+  </g>
+  <path d="M831 196h86" stroke="#8F9CA0" stroke-width="4" stroke-linecap="round"/>
+  <path d="m904 184 16 12-16 12" fill="none" stroke="#8F9CA0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(930 116)">
+    <circle cx="82" cy="78" r="57" fill="#E8F2ED" stroke="#317C6B" stroke-width="3"/>
+    <circle cx="75" cy="72" r="24" fill="none" stroke="#317C6B" stroke-width="7"/>
+    <path d="m93 90 22 22" stroke="#317C6B" stroke-width="8" stroke-linecap="round"/>
+    <text x="82" y="182" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="600" fill="#34454A">Retrieval</text>
+  </g>
+  <path d="M1095 196h64" stroke="#8F9CA0" stroke-width="4" stroke-linecap="round"/>
+  <path d="m1146 184 16 12-16 12" fill="none" stroke="#8F9CA0" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <g transform="translate(1164 98)">
+    <rect x="0" y="18" width="100" height="154" rx="18" fill="#FFFFFF" stroke="#496F91" stroke-width="3"/>
+    <path d="M22 62h56M22 88h56M22 114h42" stroke="#8FA9BB" stroke-width="7" stroke-linecap="round"/>
+    <path d="m68 28 6 10 11 2-8 8 2 11-11-5-10 5 2-11-8-8 11-2z" fill="#C5A15D"/>
+    <text x="50" y="204" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="19" font-weight="600" fill="#34454A">Answer + sources</text>
+  </g>
+</svg>
