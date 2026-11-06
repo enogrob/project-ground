@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/ground-overview-v2.svg" alt="GROUND: local documents flow through retrieval into answers linked to their sources" width="100%">
+  <img src="images/ground-overview.webp" alt="GROUND: a local-first RAG workflow from personal documents through Python, SQLite FTS5 and Ollama to answers with source passages; planned extensions include PDFs, embeddings, a Rails interface and Solid Queue." width="100%">
 </p>
 
 # Project GROUND
@@ -42,17 +42,19 @@ This repository is the public project overview. The prototype's source code and 
 
 The solid arrows show the current prototype. Dashed arrows show planned product components and integrations.
 
+<!-- zoat-visual-mermaid: visual_profile: :conversational -->
+
 ```mermaid
 %%{init: {"theme":"base","themeVariables":{"fontSize":"13px"},"flowchart":{"wrappingWidth":200,"minNodeWidth":0,"padding":8}}}%%
 flowchart TD
-    Sources(["Local HTML and HTM files"])
+    Sources(["📚 Local HTML and HTM files"])
 
     subgraph Prototype["Current Python prototype"]
-        CLI(["Python CLI"])
-        Core(["Extraction and retrieval"])
-        Index(["SQLite with FTS5"])
-        Model(["Ollama local model"])
-        Output(["Answer and source list"])
+        CLI(["⚙️ Python CLI"])
+        Core(["🔎 Extraction and retrieval"])
+        Index(["🗃️ SQLite with FTS5"])
+        Model(["🧠 Ollama local model"])
+        Output(["📄 Answer and source list"])
         CLI -->|runs| Core
         Core -->|indexes and searches| Index
         Core -->|sends passages| Model
@@ -60,9 +62,9 @@ flowchart TD
     end
 
     subgraph Product["Planned product layer"]
-        Rails(["Rails application"])
-        API(["Local Python API"])
-        Queue(["Solid Queue jobs"])
+        Rails(["🖥️ Rails application"])
+        API(["🔗 Local Python API"])
+        Queue(["⚙️ Solid Queue jobs"])
         Rails -.->|planned requests| API
         Rails -.->|planned ingestion| Queue
         Queue -.->|planned processing| Core
