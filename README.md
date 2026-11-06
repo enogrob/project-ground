@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="images/ground-overview.svg" alt="GROUND: local documents flow through retrieval into answers linked to their sources" width="100%">
+  <img src="images/ground-overview-v2.svg" alt="GROUND: local documents flow through retrieval into answers linked to their sources" width="100%">
 </p>
 
 # Project GROUND
