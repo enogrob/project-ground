@@ -19,7 +19,7 @@ GROUND is an experimental retrieval-augmented generation (RAG) project for perso
 
 The project begins with HTML and HTM documents. It is designed to explore a local-first workflow that can later expand to PDFs and other formats, with a Rails product interface around a Python document and retrieval core.
 
-The public implementation repository is [ezoatworks/ground](https://github.com/ezoatworks/ground). This repository presents the project's goals, architecture, and current status.
+This repository is the public project overview. Implementation details and reproducible run instructions will be published here as they are prepared for public release.
 
 ## Conceptual architecture
 
@@ -70,7 +70,7 @@ The Python command-line prototype can:
 
 Retrieval currently uses lexical keyword search. Semantic embeddings, vector retrieval, formal answer-quality evaluation, the Rails interface, and the Rails-to-Python API are future work.
 
-See the implementation repository for the current code and [run instructions](https://github.com/ezoatworks/ground#run-locally).
+The prototype's source code and local setup instructions are not included in this public overview yet.
 
 ## Design principles
 
@@ -91,7 +91,6 @@ The project does not currently depend on LangGraph, CrewAI, or another agent fra
 
 ## References
 
-- [GROUND implementation and local run instructions](https://github.com/ezoatworks/ground)
 - [Project Ground board](https://github.com/orgs/ezoatworks/projects/8/views/1?system_template=kanban)
 - [SQLite FTS5](https://www.sqlite.org/fts5.html)
 - [Ollama API](https://github.com/ollama/ollama/blob/main/docs/api.md)
