@@ -4,8 +4,8 @@
   <rect width="1280" height="420" rx="28" fill="#F8F5EF"/>
   <path d="M52 58h8v92h-8z" fill="#C5A15D"/>
   <text x="86" y="135" font-family="Inter,Arial,sans-serif" font-size="84" font-weight="750" letter-spacing="2" fill="#164E59">GROUND</text>
-  <text x="90" y="188" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="600" fill="#34454A">Local-first RAG for personal document collections</text>
-  <text x="90" y="244" font-family="Inter,Arial,sans-serif" font-size="21" fill="#526267">Retrieve relevant passages. Keep answers connected to their sources.</text>
+  <text x="90" y="188" font-family="Inter,Arial,sans-serif" font-size="30" font-weight="600" fill="#34454A">Local-first RAG for personal research</text>
+  <text x="90" y="244" font-family="Inter,Arial,sans-serif" font-size="21" fill="#526267">Retrieve passages. Keep answers linked to their sources.</text>
   <rect x="90" y="294" width="220" height="44" rx="22" fill="#E8F0F2" stroke="#164E59" stroke-width="2"/>
   <text x="200" y="323" text-anchor="middle" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="700" letter-spacing="1.2" fill="#164E59">LOCAL-FIRST PROTOTYPE</text>
   <g transform="translate(668 88)">
